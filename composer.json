@@ -1,0 +1,21 @@
+{
+    "name": "dileepn0536/hello-composer",
+    "description": "My first packagist package",
+    "type": "package",
+    "require": {
+        "php": ">=5.3"
+    },
+    "license": "mit",
+    "autoload": {
+        "psr-4": {
+            "Dileepn0536\\HelloComposer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Dileep Nadukuru",
+            "email": "dileepnadukuru@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
